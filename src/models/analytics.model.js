@@ -1,43 +1,39 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database');
+const { sequelize } = require('../config/database');
 
 const Analytics = sequelize.define('Analytics', {
   id: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true
+    type: DataTypes.UUID,
+    defaultValue: DataTypes.UUIDV4,
+    primaryKey: true
   },
-  subscribers: {
-    type: DataTypes.INTEGER,
-    defaultValue: 0
+  userId: {
+    type: DataTypes.UUID,
+    allowNull: false
   },
-  subscriberGrowth: {
-    type: DataTypes.FLOAT,
-    defaultValue: 0
+  date: {
+    type: DataTypes.DATEONLY,
+    allowNull: false
   },
-  openRate: {
-    type: DataTypes.FLOAT,
-    defaultValue: 0
-  },
-  openRateChange: {
-    type: DataTypes.FLOAT,
-    defaultValue: 0
-  },
-  clickRate: {
-    type: DataTypes.FLOAT,
-    defaultValue: 0
-  },
-  clickRateChange: {
-    type: DataTypes.FLOAT,
-    defaultValue: 0
-  },
-  revenue: {
-    type: DataTypes.FLOAT,
-    defaultValue: 0
-  },
-  revenueGrowth: {
-    type: DataTypes.FLOAT,
-    defaultValue: 0
+  metrics: {
+    type: DataTypes.JSON,
+    defaultValue: {
+      subscribers: {
+        total: 0,
+        new: 0,
+        unsubscribed: 0
+      },
+      emails: {
+        sent: 0,
+        opened: 0,
+        clicked: 0,
+        bounced: 0
+      },
+      revenue: {
+        total: 0,
+        fromEmails: 0
+      }
+    }
   }
 });
 

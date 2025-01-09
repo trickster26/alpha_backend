@@ -2,14 +2,20 @@ const { Sequelize } = require('sequelize');
 const logger = require('../utils/logger');
 require('dotenv').config();
 
+// Create Sequelize instance with proper configuration
 const sequelize = new Sequelize({
-  dialect: 'mysql',
-  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
   username: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
-  port: process.env.DB_PORT,
-  logging: (msg) => logger.debug(msg)
+  host: process.env.DB_HOST,
+  dialect: 'mysql',
+  logging: (msg) => logger.debug(msg),
+  pool: {
+    max: 5,
+    min: 0,
+    acquire: 30000,
+    idle: 10000
+  }
 });
 
 // Database connection function

@@ -74,3 +74,102 @@
 {"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/analytics","timestamp":"2025-01-09T07:06:14.566Z"}
 {"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/campaigns","timestamp":"2025-01-09T07:06:14.573Z"}
 {"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/activity","timestamp":"2025-01-09T07:06:14.583Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:18:52.978Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:18:53.068Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:18:53.089Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:18:58.736Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:18:58.852Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:18:58.886Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:19:13.641Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:19:13.727Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:19:13.747Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:19:18.491Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:19:18.585Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:19:18.602Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:19:37.237Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:19:37.311Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:19:37.329Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:19:41.222Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:19:41.293Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:19:41.313Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:20:48.222Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:20:48.340Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:20:48.363Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:20:51.400Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:20:51.473Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:20:51.491Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:21:08.489Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:21:08.555Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:21:08.571Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:21:16.377Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:21:16.436Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:21:16.450Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:24:30.610Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:24:30.698Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:24:30.714Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:25:17.796Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:25:17.903Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:25:17.929Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:26:49.339Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:26:49.419Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:26:49.437Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:26:54.034Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:26:54.120Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:26:54.138Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:27:08.267Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:27:08.365Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:27:08.391Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:27:11.314Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:27:11.403Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:27:11.420Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:27:16.535Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:27:16.611Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:27:16.628Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:28:07.186Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:28:07.275Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:28:07.297Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:33:31.389Z"}
+{"level":"error","message":"Unhandled Rejection: logger is not defined","stack":"ReferenceError: logger is not defined\n    at connectDB (/home/vm/Documents/backend/src/config/database.js:30:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-01-09T07:33:31.463Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:33:55.773Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:33:55.836Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:33:55.850Z"}
+{"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/analytics","timestamp":"2025-01-09T07:34:07.131Z"}
+{"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/analytics","timestamp":"2025-01-09T07:34:07.143Z"}
+{"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/activity","timestamp":"2025-01-09T07:34:07.149Z"}
+{"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/campaigns","timestamp":"2025-01-09T07:34:07.152Z"}
+{"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/campaigns","timestamp":"2025-01-09T07:34:07.157Z"}
+{"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/activity","timestamp":"2025-01-09T07:34:07.164Z"}
+{"error":{"statusCode":404},"level":"error","message":"Not Found - /api/dashboard/activity","timestamp":"2025-01-09T07:34:37.151Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:37:12.301Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:37:12.366Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:37:12.403Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:37:25.774Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:37:25.865Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:37:25.912Z"}
+{"level":"error","message":"Database initialization failed: Cannot drop table 'Users' referenced by a foreign key constraint 'Campaigns_ibfk_1' on table 'Campaigns'.","name":"SequelizeDatabaseError","original":{"code":"ER_FK_CANNOT_DROP_PARENT","errno":3730,"sql":"DROP TABLE IF EXISTS `Users`;","sqlMessage":"Cannot drop table 'Users' referenced by a foreign key constraint 'Campaigns_ibfk_1' on table 'Campaigns'.","sqlState":"HY000"},"parameters":{},"parent":{"code":"ER_FK_CANNOT_DROP_PARENT","errno":3730,"sql":"DROP TABLE IF EXISTS `Users`;","sqlMessage":"Cannot drop table 'Users' referenced by a foreign key constraint 'Campaigns_ibfk_1' on table 'Campaigns'.","sqlState":"HY000"},"sql":"DROP TABLE IF EXISTS `Users`;","stack":"Error\n    at Query.run (/home/vm/Documents/backend/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)\n    at /home/vm/Documents/backend/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.dropTable (/home/vm/Documents/backend/node_modules/sequelize/lib/dialects/abstract/query-interface.js:111:5)\n    at async User.drop (/home/vm/Documents/backend/node_modules/sequelize/lib/model.js:1007:12)\n    at async Sequelize.drop (/home/vm/Documents/backend/node_modules/sequelize/lib/sequelize.js:429:9)\n    at async Sequelize.sync (/home/vm/Documents/backend/node_modules/sequelize/lib/sequelize.js:366:7)\n    at async initDb (/home/vm/Documents/backend/src/scripts/initDb.js:8:5)","timestamp":"2025-01-09T07:48:28.600Z"}
+{"level":"info","message":"Database tables created successfully","timestamp":"2025-01-09T07:51:40.952Z"}
+{"level":"info","message":"Admin user created successfully","timestamp":"2025-01-09T07:51:41.111Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:52:12.794Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:52:12.865Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:52:12.912Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:57:04.320Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:57:04.432Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:57:04.511Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:57:07.704Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:57:07.793Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:57:07.853Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:57:12.498Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:57:12.591Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:57:12.658Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:57:18.602Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:57:18.663Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:57:18.704Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:57:19.323Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:57:19.383Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:57:19.421Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:57:57.144Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:57:57.203Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:57:57.244Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:58:02.651Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:58:02.732Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:58:02.796Z"}

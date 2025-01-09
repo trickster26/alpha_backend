@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database');
+const { sequelize } = require('../config/database');
 
 const Activity = sequelize.define('Activity', {
   id: {
@@ -7,18 +7,45 @@ const Activity = sequelize.define('Activity', {
     primaryKey: true,
     autoIncrement: true
   },
+  userId: {
+    type: DataTypes.UUID,
+    allowNull: false
+  },
   type: {
-    type: DataTypes.ENUM('email_opened', 'subscription', 'purchase', 'email_clicked'),
+    type: DataTypes.ENUM(
+      'email_opened',
+      'email_clicked',
+      'subscription',
+      'unsubscription',
+      'bounce',
+      'complaint'
+    ),
     allowNull: false
   },
-  user: {
-    type: DataTypes.STRING,
+  subscriberId: {
+    type: DataTypes.UUID,
     allowNull: false
   },
-  email: {
-    type: DataTypes.STRING,
-    allowNull: false
+  campaignId: {
+    type: DataTypes.UUID,
+    allowNull: true
+  },
+  metadata: {
+    type: DataTypes.JSON,
+    defaultValue: {}
   }
 });
+
+// Define the associations
+Activity.associate = (models) => {
+  Activity.belongsTo(models.User, {
+    foreignKey: 'userId',
+    as: 'user'
+  });
+  Activity.belongsTo(models.Subscriber, {
+    foreignKey: 'subscriberId',
+    as: 'subscriber'
+  });
+};
 
 module.exports = Activity; 

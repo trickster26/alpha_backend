@@ -4,6 +4,7 @@ const morgan = require('morgan');
 require('dotenv').config();
 
 const authRoutes = require('./routes/auth.routes');
+const dashboardRoutes = require('./routes/dashboard.routes');
 const { errorHandler, notFound } = require('./middleware/error');
 const logger = require('./utils/logger');
 const { connectDB } = require('./config/database');
@@ -23,6 +24,7 @@ app.use(morgan('dev'));
 
 // Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/dashboard', dashboardRoutes);
 
 // Error handling
 app.use(notFound);

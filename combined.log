@@ -173,3 +173,9 @@
 {"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T07:58:02.651Z"}
 {"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T07:58:02.732Z"}
 {"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T07:58:02.796Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T10:01:36.639Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T10:01:36.708Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T10:01:36.752Z"}
+{"level":"info","message":"Server is running on port 4000","timestamp":"2025-01-09T10:01:42.839Z"}
+{"level":"info","message":"Database connection established successfully.","timestamp":"2025-01-09T10:01:42.902Z"}
+{"level":"info","message":"Database models synchronized","timestamp":"2025-01-09T10:01:42.943Z"}

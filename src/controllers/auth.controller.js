@@ -3,8 +3,8 @@ const User = require('../models/user.model');
 const logger = require('../utils/logger');
 
 // Generate JWT Token
-const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, {
+const generateToken = (id, email, firstName, lastName, role) => {
+  return jwt.sign({ id, email, firstName, lastName, role }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_IN
   });
 };
@@ -82,7 +82,7 @@ const authController = {
       await user.update({ lastLogin: new Date() });
 
       // Generate token
-      const token = generateToken(user.id);
+      const token = generateToken(user.id, user.email, user.firstName, user.lastName, user.role);
 
       res.json({
         success: true,
